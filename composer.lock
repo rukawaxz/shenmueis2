@@ -4,7 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "2d7f68ea3d3e55b20ecfaa5c26a1b8b0",
+    "hash": "1cc14e501f997c727cc6b3891c0e2443",
+    "content-hash": "2752bad53a0e318f918b77a45333a5af",
     "packages": [
         {
             "name": "composer/installers",
@@ -239,12 +240,35 @@
                 "environment"
             ],
             "time": "2015-12-29 15:10:30"
+        },
+        {
+            "name": "wpackagist-plugin/vimeography",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/vimeography/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/vimeography.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/vimeography/",
+            "time": "2015-06-05 20:32:19"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "wpackagist-plugin/vimeography": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
